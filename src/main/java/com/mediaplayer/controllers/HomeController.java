@@ -30,6 +30,7 @@ public class HomeController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        
         Image image = new Image(getClass().getResource("/com/mediaplayer/assets/logo.jpg").toExternalForm());
         PlayerImage.setImage(image);
     }
