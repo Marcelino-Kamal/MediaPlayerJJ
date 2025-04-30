@@ -18,7 +18,10 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("Home"), 640, 480);
+        scene.getStylesheets().add(getClass().getResource("/com/mediaplayer/css/home.css").toExternalForm());
+        System.out.println(getClass().getResource("/com/mediaplayer/css/home.css"));
         stage.setScene(scene);
+        stage.setTitle("Jog and Joke MediaPlayer");
         stage.show();
     }
 
