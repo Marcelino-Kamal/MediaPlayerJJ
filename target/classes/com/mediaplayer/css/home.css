@@ -1,0 +1,20 @@
+VBox {
+    -fx-background-color: lightblue;
+    -fx-alignment: center;  /* Center all children of VBox */
+    -fx-spacing: 20;    
+}
+Button {
+    -fx-background-color: #021f3d; /* Blue background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px; /* Padding around text */
+    -fx-border-radius: 8px; /* Rounded corners */
+}
+
+Button:hover {
+    -fx-background-color: #0056b3; /* Darker blue on hover */
+}
+Image{
+
+
+}
