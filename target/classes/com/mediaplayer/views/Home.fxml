@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+    <?import javafx.scene.layout.*?>
+    <?import javafx.scene.image.ImageView?>
+    <?import javafx.scene.image.Image?>   <!-- You also need to import Image -->
+    <?import javafx.stage.Stage?>
+    
+    <VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.mediaplayer.controllers.HomeController" style="-fx-background-color: gray;">
+        <ImageView fx:id="PlayerImage" fitHeight="100" fitWidth="100">
+        </ImageView>
+        <Button fx:id="addmusic" onAction="#Addmusic">Add Music</Button>
+    </VBox>
+    
