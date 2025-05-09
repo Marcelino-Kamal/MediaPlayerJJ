@@ -3,6 +3,7 @@ package com.mediaplayer.models;
 public class Song {
     private String name;
     private String path;
+    
 
     public String getName() {
         return this.name;
